@@ -1,0 +1,20 @@
+{
+  "name": "geojson-elevation",
+  "version": "1.0.0",
+  "description": "Add elevation data to GeoJSON objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "elevation",
+    "geojson",
+    "srtm"
+  ],
+  "author": "Per Liedman <per@liedman.net>",
+  "license": "ISC",
+  "dependencies": {
+    "node-hgt": "^1.0.2",
+    "turf-meta": "^1.0.2"
+  }
+}
