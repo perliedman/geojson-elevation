@@ -2,7 +2,8 @@ var coordEach = require('turf-meta').coordEach;
 
 module.exports = {
     addElevation: function(geojson, elevationProvider, cb) {
-        var waiting = 0;
+        var waiting = 0,
+            allProcessed = false;
 
         coordEach(geojson, function(coords) {
             waiting++;
@@ -16,10 +17,15 @@ module.exports = {
                     waiting--;
                 }
 
-                if (waiting === 0) {
+                if (allProcessed && waiting === 0) {
                     cb(undefined, geojson);
                 }
             });
         });
+
+        allProcessed = true;
+        if (waiting === 0) {
+            cb(undefined, geojson);
+        }
     }
 };
