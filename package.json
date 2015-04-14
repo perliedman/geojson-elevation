@@ -1,7 +1,12 @@
 {
   "name": "geojson-elevation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add elevation data to GeoJSON objects",
+  "homepage": "https://github.com/perliedman/geojson-elevation",
+  "repository": {
+    "type": "git",
+    "https://github.com/perliedman/geojson-elevation.git"
+  },
   "main": "index.js",
   "repository": "git@github.com:perliedman/geojson-elevation.git",
   "scripts": {
