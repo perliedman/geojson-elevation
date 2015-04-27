@@ -5,7 +5,7 @@
   "homepage": "https://github.com/perliedman/geojson-elevation",
   "repository": {
     "type": "git",
-    "https://github.com/perliedman/geojson-elevation.git"
+    "url": "https://github.com/perliedman/geojson-elevation.git"
   },
   "main": "index.js",
   "repository": "git@github.com:perliedman/geojson-elevation.git",
