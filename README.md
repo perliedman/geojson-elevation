@@ -5,6 +5,8 @@ GeoJSON Elevation
 
 Add juicy elevation data to your fresh [GeoJSON](http://geojson.org/).
 
+Check out the [demo app](http://www.liedman.net/elevation-service/), if you want to get a feel for it.
+
 ## Install
 
 ```
