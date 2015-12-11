@@ -1,7 +1,7 @@
 GeoJSON Elevation
 =================
 
-[![npm version](https://img.shields.io/npm/v/geojson-elevation.svg)](https://www.npmjs.com/package/geojson-elevation)
+[![npm version](https://img.shields.io/npm/v/geojson-elevation.svg)](https://www.npmjs.com/package/geojson-elevation) [![Build status](https://travis-ci.org/perliedman/geojson-elevation.png)](https://travis-ci.org/perliedman/geojson-elevation)
 
 Add juicy elevation data to your fresh [GeoJSON](http://geojson.org/).
 
