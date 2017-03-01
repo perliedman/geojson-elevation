@@ -1,6 +1,8 @@
 GeoJSON Elevation
 =================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/perliedman/geojson-elevation.svg)](https://greenkeeper.io/)
+
 [![npm version](https://img.shields.io/npm/v/geojson-elevation.svg)](https://www.npmjs.com/package/geojson-elevation) [![Build status](https://travis-ci.org/perliedman/geojson-elevation.png)](https://travis-ci.org/perliedman/geojson-elevation)
 
 Add juicy elevation data to your fresh [GeoJSON](http://geojson.org/).
