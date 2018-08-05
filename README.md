@@ -38,7 +38,7 @@ Example:
 var addElevation = require('geojson-elevation').addElevation,
     TileSet = require('node-hgt').TileSet;
 
-addElevation(geojson, new TileSet('./data'), function(err) {
+addElevation(geojson, new TileSet('./data'), function(err, geojson) {
     if (!err) {
         console.log(JSON.stringify(geojson));
     } else {
