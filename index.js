@@ -1,4 +1,4 @@
-var coordEach = require('turf-meta').coordEach;
+var coordEach = require('@turf/meta').coordEach;
 
 module.exports = {
     addElevation: function(geojson, elevationProvider, cb, nodata) {
