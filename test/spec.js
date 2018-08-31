@@ -1,7 +1,7 @@
 var test = require('tape'),
     addElevation = require('../').addElevation,
     TileSet = require('node-hgt').TileSet,
-    coordReduce = require('turf-meta').coordReduce;
+    coordReduce = require('@turf/meta').coordReduce;
 
 test('can add elevation to LineString', function(t) {
     var lineString = {
